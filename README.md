@@ -6,3 +6,6 @@
 
 ## HTML Bölüm Sonu Projesi
 HTML patikası sonundan yapılan bölüm sonu projesi
+
+## CSS Ödevleri
+Ödev 1
