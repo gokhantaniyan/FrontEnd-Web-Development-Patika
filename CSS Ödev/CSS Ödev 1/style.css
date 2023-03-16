@@ -1,0 +1,55 @@
+body {
+    background-color: #F6E1C3;
+}
+
+header {
+    text-align: center;
+    text-transform: uppercase; 
+
+}
+
+h1 {
+    color: #eb455f;
+    font-size: 48px;
+    font-family: 'Smokum', cursive;
+}
+h2 {
+    color: #7DB9B6;
+    font-size: 36px;
+}
+h4 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    font-size: 24px;
+}
+
+.article1 {
+    text-align: center;
+    list-style-position: inside;
+    font-size: 18px;
+}
+p {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.article1 h3 {
+    color: #FFB84C;
+    font-size: 24px;
+}
+
+.article2 {
+    text-align: center;
+}
+
+.filmler {
+    text-align: center;
+    list-style-position: inside;
+}
+
+p {
+
+}
