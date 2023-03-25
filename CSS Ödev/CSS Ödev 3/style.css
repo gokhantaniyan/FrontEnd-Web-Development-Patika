@@ -1,0 +1,233 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/**** Header ****/
+.nav-bar-ul {
+    list-style: none;
+    margin: 10px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px; 
+}
+
+.nav-bar-li {
+    margin: 8px;
+}
+
+.nav-bar-li a {
+    display: block;
+    text-align: center;
+    padding: 5px;
+    float: right;
+    text-decoration: none;
+}
+
+.nav-bar-li a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar-li a img:hover {
+    opacity: 0.6;
+    border-style:hidden;
+}
+
+#profil a img {
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+}
+
+/**** Google Image ****/
+.container {
+    text-align: center;
+    margin: 100px;
+}
+
+/**** Arama Alanı ****/
+.search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    border-radius: 50px;
+}
+
+.search-area:hover {
+    box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+}
+.search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+} 
+.search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+} 
+
+/* Arama Çubuğu */
+.input-enter {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+}
+
+.input {
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    font: 16px arial, sans-serif;
+    margin-top: -68px;
+    height: 34px;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    border-style: none;
+    width: 480px;
+}
+
+.buttons {
+    text-align: center;
+    height: 36px;
+}
+
+/* Google Arama Butonu */
+.googlesearch {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: Arial;
+    font-size: 14px;
+    color:#3c4043;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  
+}
+
+.googlesearch:hover{
+    background-color: #f8f9fa;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.87);
+    border-style: 1px solid #f2f2f2;
+    color: #3c4043;
+}
+
+/* Kendimi Şanslı Hissediyorum Butonu */
+.feelinglucky {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #3c4043;
+    margin: 11px 4px;
+    padding: 0px 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+  
+.feelinglucky:hover{
+    background-color: #f8f9fa;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.87);
+    border-style: 1px solid #f2f2f2;
+    color: #3c4043;
+}
+
+/* Mikrofon Görseli */
+.voice {
+   width: 24px;
+   height: 24px;
+   margin: auto;
+}
+
+
+/**** Footer ****/
+footer {
+    background: #f2f2f2;
+    border-top: solid 2px #e4e4e4;
+    bottom: 0;
+    position: absolute;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+footer ul li {
+    display: inline;
+    color: #666666;
+    font-family: arial;
+    font-size: 14px;
+    padding: 13px;
+}
+  
+footer ul {
+    float: left;
+    padding: 1px;
+}
+  
+footer ul a:hover {
+    text-decoration: underline;
+}
+
+.footer-mid {
+    width: 50%;
+    text-align: center;
+}
+  
+.footer-right {
+    float: right;
+}
