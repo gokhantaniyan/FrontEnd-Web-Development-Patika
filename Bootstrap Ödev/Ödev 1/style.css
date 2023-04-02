@@ -1,0 +1,16 @@
+body {
+    background-color: #E9ECEF;
+}
+
+h1, h2, h4, h5, h6 {
+    font-family: 'Smokum', cursive;
+    color: #007bff;
+}
+
+.card {
+    background-color: #F9F5EB;
+}
+
+.list-group {
+    list-style: inside;
+}
